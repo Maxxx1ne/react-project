@@ -1,8 +1,11 @@
 .info {
-    margin: 50px 30px;
+    margin-top: 50px;
+    margin-left: 50px;
 
     display: flex;
     justify-content: space-between;
+
+    width: 1380px;
 }
 
 .info__leftcard__text {

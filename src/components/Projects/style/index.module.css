@@ -1,0 +1,25 @@
+.projects {
+  margin-top: 50px;
+  margin-left: 50px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  width: 1380px;
+}
+
+h4 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+
+.projects__gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}

@@ -1,14 +1,13 @@
-.infoCard {
+.infoFooter {
     margin-top: 100px;
     margin-left: 50px;
 
     display: flex;
-    justify-content: space-between;
-
+    gap: 350px;
     width: 1380px;
 }
 
-h2 {
+h3 {
     font-family: Roboto;
     font-weight: 400;
     font-style: Regular;
@@ -17,27 +16,38 @@ h2 {
     letter-spacing: 0px;
 }
 
-.infoCard__right {
-    margin-right: 260px;
-    
+.rightInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.rightInfo__text {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0px;
+}
+
+.rightInfo__main {
     display: flex;
     flex-direction: column;
     gap: 50px;
 }
 
-.infoCard__right__first {
+.rightInfo__main__card {
+    padding-bottom: 25px;
+
     display: flex;
-    flex-direction: column;
-    gap: 15px;
+    justify-content: space-between;
+    gap: 100px;
+
+    border-bottom: 1px solid black;
 }
 
-.infoCard__right__second {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-}
-
-.infoCard__right__second__card__top {
+.rightInfo__main__card__title {
     font-family: Roboto;
     font-weight: 400;
     font-style: Regular;
@@ -46,7 +56,9 @@ h2 {
     letter-spacing: 0px;
 }
 
-.infoCard__right__second__card__mini {
+.rightInfo__main__card__miniInfo {
+    width: 330px;
+
     font-family: Roboto;
     font-weight: 400;
     font-style: Regular;

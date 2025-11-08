@@ -1,9 +1,12 @@
 .main {
-    margin: 50px 30px;
+    margin-top: 50px;
+    margin-left: 50px;
 
     display: flex;
     justify-content: space-between;
     align-items: last baseline;
+
+    width: 1380px;
 }
 
 h1 {
