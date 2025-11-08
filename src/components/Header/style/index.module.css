@@ -1,0 +1,20 @@
+.header {
+    margin: 10px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu{
+    margin-left: 300px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header__menu a {
+    color: black;
+    text-decoration: none;
+}

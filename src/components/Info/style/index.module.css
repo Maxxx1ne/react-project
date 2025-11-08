@@ -1,0 +1,19 @@
+.info {
+    margin: 50px 30px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__leftcard__text {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0px;
+}
+
+.info__leftcard__img {
+    margin-top: 260px;
+}
