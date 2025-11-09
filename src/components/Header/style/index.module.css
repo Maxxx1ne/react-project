@@ -1,20 +1,17 @@
 .header {
-    margin-top: 10px;
-    margin-left: 50px;
-
+    margin: 10px 30px;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    width: 1380px;
 }
 
 .header__menu{
-    margin-left: 300px;
+    margin-left: 400px;
 
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
 }
 
 .header__menu a {

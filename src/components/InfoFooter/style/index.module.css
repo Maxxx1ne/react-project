@@ -1,13 +1,12 @@
 .infoFooter {
-    margin-top: 100px;
-    margin-left: 50px;
+    margin: 100px 30px;
 
     display: flex;
-    gap: 350px;
-    width: 1380px;
+    justify-content: space-between;
 }
 
 h3 {
+    width: 400px;
     font-family: Roboto;
     font-weight: 400;
     font-style: Regular;
@@ -17,6 +16,7 @@ h3 {
 }
 
 .rightInfo {
+    margin-left: 390px;
     display: flex;
     flex-direction: column;
     gap: 45px;

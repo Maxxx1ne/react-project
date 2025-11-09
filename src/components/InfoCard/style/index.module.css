@@ -1,11 +1,8 @@
 .infoCard {
-    margin-top: 100px;
-    margin-left: 50px;
+    margin: 100px 30px;
 
     display: flex;
     justify-content: space-between;
-
-    width: 1380px;
 }
 
 h2 {
@@ -18,8 +15,7 @@ h2 {
 }
 
 .infoCard__right {
-    margin-right: 260px;
-    
+    padding-right: 260px;
     display: flex;
     flex-direction: column;
     gap: 50px;

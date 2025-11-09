@@ -1,12 +1,9 @@
 .main {
-    margin-top: 50px;
-    margin-left: 50px;
+    margin: 50px 30px;
 
     display: flex;
     justify-content: space-between;
     align-items: last baseline;
-
-    width: 1380px;
 }
 
 h1 {
@@ -20,8 +17,8 @@ h1 {
 }
 
 .main__button {
-    padding: 5px 10px;
-    
+    padding-bottom: 2px;
+
     background: transparent;
 
     border: none;
