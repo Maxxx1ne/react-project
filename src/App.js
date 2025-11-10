@@ -6,6 +6,7 @@ import { InfoCard } from './components/InfoCard'
 import { InfoFooter } from './components/InfoFooter'
 import { Projects } from './components/Projects'
 import { Reviews } from './components/Reviews'
+import { Footer } from './components/Footer'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <InfoFooter />
       <Projects />
       <Reviews />
+      <Footer />
     </div>
   )
 }
