@@ -1,5 +1,6 @@
 .footer {
     margin: 100px 30px;
+
     display: flex;
     justify-content: space-between;
 }
@@ -75,9 +76,9 @@
 
 label {
   padding: 5px;  
+  margin-bottom: 5px;
 
   display: block;
-  margin-bottom: 5px;
   font-weight: bold;
 }
 

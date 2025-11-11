@@ -16,6 +16,7 @@ h2 {
 
 .infoCard__right {
     padding-right: 260px;
+    
     display: flex;
     flex-direction: column;
     gap: 50px;
