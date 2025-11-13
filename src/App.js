@@ -7,6 +7,7 @@ import { InfoFooter } from './components/InfoFooter'
 import { Projects } from './components/Projects'
 import { Reviews } from './components/Reviews'
 import { Footer } from './components/Footer'
+import { FooterInfo } from './components/FooterInfo'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Projects />
       <Reviews />
       <Footer />
+      <FooterInfo />
     </div>
   )
 }

@@ -1,0 +1,42 @@
+.footerInfo {
+    margin: 10px 30px ;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerInfo__char {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+}
+
+.footerInfo__centerText {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0px;
+}
+
+.footerInfo__rightChar {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.footerInfo__rightChar__txt {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+}
