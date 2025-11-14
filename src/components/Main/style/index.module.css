@@ -19,9 +19,8 @@ h1 {
 .main__button {
     padding-bottom: 2px;
 
-    background: transparent;
-
     border: none;
     border-bottom: 1px solid black;
+    background: transparent;
     cursor: pointer;
 }

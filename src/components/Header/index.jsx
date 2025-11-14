@@ -14,9 +14,7 @@ export const Header = () => {
                 <a href="/">Отзывы</a>
             </div>
             {/* Main phone */}
-            <p className={styless.header__phone}>
-                +7 999 999 99 99
-            </p>
+            <p className={styless.header__phone}>+7 999 999 99 99</p>
         </div>
     )
 }
